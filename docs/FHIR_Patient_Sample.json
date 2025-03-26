@@ -1,0 +1,47 @@
+{
+  "resourceType": "Patient",
+  "id": "pet123",
+  "name": [
+    {
+      "use": "official",
+      "family": "Watlington",
+      "given": ["Buddy"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2018-06-15",
+  "animal": {
+    "species": {
+      "text": "Canine"
+    },
+    "breed": {
+      "text": "Golden Retriever"
+    }
+  },
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "code": "O",
+              "display": "Owner"
+            }
+          ]
+        }
+      ],
+      "name": {
+        "family": "Watlington",
+        "given": ["Triva"]
+      },
+      "telecom": [
+        {
+          "system": "email",
+          "value": "triva.watlington07@gmail.com",
+          "use": "home"
+        }
+      ]
+    }
+  ]
+}
